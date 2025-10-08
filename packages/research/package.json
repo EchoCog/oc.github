@@ -1,0 +1,29 @@
+{
+  "name": "@opencog/research",
+  "version": "1.0.0",
+  "description": "OpenCog Research - Active research projects and experimental cognitive architectures",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building research components...'",
+    "test": "echo 'Testing research components...'",
+    "dev": "echo 'Research development mode...'",
+    "lint": "echo 'Linting research code...'"
+  },
+  "keywords": [
+    "opencog",
+    "research",
+    "agents",
+    "learning",
+    "sensory",
+    "motor",
+    "simd"
+  ],
+  "license": "AGPL-3.0",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EchoCog/oc.github.git",
+    "directory": "packages/research"
+  }
+}

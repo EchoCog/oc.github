@@ -1,0 +1,27 @@
+{
+  "name": "@opencog/hyperon",
+  "version": "1.0.0",
+  "description": "OpenCog Hyperon - Next-generation AGI framework by SingularityNET",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building Hyperon components...'",
+    "test": "echo 'Testing Hyperon components...'",
+    "dev": "echo 'Hyperon development mode...'",
+    "lint": "echo 'Linting Hyperon code...'"
+  },
+  "keywords": [
+    "opencog",
+    "hyperon",
+    "singularitynet",
+    "agi",
+    "metta"
+  ],
+  "license": "AGPL-3.0",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EchoCog/oc.github.git",
+    "directory": "packages/hyperon"
+  }
+}

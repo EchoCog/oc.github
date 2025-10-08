@@ -1,0 +1,29 @@
+{
+  "name": "@opencog/incubator",
+  "version": "1.0.0",
+  "description": "OpenCog Incubator - Experimental and proof-of-concept projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building incubator components...'",
+    "test": "echo 'Testing incubator components...'",
+    "dev": "echo 'Incubator development mode...'",
+    "lint": "echo 'Linting incubator code...'"
+  },
+  "keywords": [
+    "opencog",
+    "incubator",
+    "experimental",
+    "proof-of-concept",
+    "moses",
+    "vision",
+    "spacetime"
+  ],
+  "license": "AGPL-3.0",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EchoCog/oc.github.git",
+    "directory": "packages/incubator"
+  }
+}

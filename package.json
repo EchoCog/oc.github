@@ -1,0 +1,43 @@
+{
+  "name": "@opencog/monorepo",
+  "version": "1.0.0",
+  "description": "OpenCog AGI Project - Monorepo containing all OpenCog components and research",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EchoCog/oc.github.git"
+  },
+  "author": "OpenCog Foundation",
+  "license": "AGPL-3.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "npm install",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "clean": "npm run clean --workspaces && rm -rf node_modules",
+    "dev": "npm run dev --workspaces",
+    "workspace": "npm run --workspace"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "prettier": "^3.0.0",
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "opencog",
+    "agi",
+    "artificial-general-intelligence",
+    "atomspace",
+    "hypergraph",
+    "cognitive-architecture",
+    "monorepo"
+  ]
+}
