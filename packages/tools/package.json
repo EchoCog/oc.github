@@ -1,0 +1,27 @@
+{
+  "name": "@opencog/tools",
+  "version": "1.0.0",
+  "description": "OpenCog Tools - Development utilities and helper tools",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building tools...'",
+    "test": "echo 'Testing tools...'",
+    "dev": "echo 'Tools development mode...'",
+    "lint": "echo 'Linting tools code...'"
+  },
+  "keywords": [
+    "opencog",
+    "tools",
+    "utilities",
+    "development",
+    "cli"
+  ],
+  "license": "AGPL-3.0",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EchoCog/oc.github.git",
+    "directory": "packages/tools"
+  }
+}

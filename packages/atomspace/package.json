@@ -1,0 +1,27 @@
+{
+  "name": "@opencog/atomspace",
+  "version": "1.0.0",
+  "description": "OpenCog AtomSpace - Core hypergraph database and query engine components",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building AtomSpace components...'",
+    "test": "echo 'Testing AtomSpace components...'",
+    "dev": "echo 'AtomSpace development mode...'",
+    "lint": "echo 'Linting AtomSpace code...'"
+  },
+  "keywords": [
+    "opencog",
+    "atomspace",
+    "hypergraph",
+    "database",
+    "query-engine"
+  ],
+  "license": "AGPL-3.0",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EchoCog/oc.github.git",
+    "directory": "packages/atomspace"
+  }
+}
